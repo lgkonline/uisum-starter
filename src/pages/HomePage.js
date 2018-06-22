@@ -1,19 +1,19 @@
 import React from "react";
-import { Page } from "uisum";
+import { Page, Header, HeaderTitle, Body } from "uisum";
 
 class HomePage extends React.Component {
     render() {
         return (
             <Page>
-                <Page.Header>
-                    <Page.Header.Title>
+                <Header>
+                    <HeaderTitle>
                         Home page
-                    </Page.Header.Title>
-                </Page.Header>
+                    </HeaderTitle>
+                </Header>
 
-                <Page.Body>
+                <Body>
                     <h1>Hello world</h1>
-                </Page.Body>
+                </Body>
             </Page>
         );
     }
